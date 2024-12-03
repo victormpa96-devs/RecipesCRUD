@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes CRUD [VA]</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th id="tableTitle" colspan=2>CRUD functions for Browser's Console</th>
+        </tr>
+        <tr>
+            <td class="firstColumn">NEW RECIPE</td>
+            <td>newRecipe(<span>"Recipe Name", "Optional position number in the list"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">ADD INGREDIENT TO RECIPE</td>
+            <td>addIngredient(<span>"Recipe Name", "Ingredient Name", "Ingredient Weight (Integer)", "Optional position number in the ingredients list"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">MODIFY RECIPE NAME</td>
+            <td>modifyRecipeName(<span>"Current Recipe Name", "New Recipe Name"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">MODIFY INGREDIENT</td>
+            <td>modifyIngredient(<span>"Recipe Name", "Current Ingredient", "New Ingredient"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">MODIFY WEIGHT</td>
+            <td>modifyIngredientWeight(<span>"Recipe Name", "Ingredient", "New Weight"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">DELETE RECIPE</td>
+            <td>deleteRecipe(<span>"Recipe Name"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">DELETE INGREDIENT</td>
+            <td>deleteIngredient(<span>"Recipe Name", "Ingredient"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">DISPLAY SPECIFIC RECIPE</td>
+            <td>displayRecipe(<span>"Recipe Name"</span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">DISPLAY RECIPES BY INGREDIENTS</td>
+            <td>displayRecipesByIngredients(<span>"Ingredient Name", "Ingredient Name", <strong>...</strong></span>)</td>
+        </tr>
+        <tr>
+            <td class="firstColumn">DISPLAY ALL RECIPES</td>
+            <td>displayRecipes()</td>
+        </tr>
+    </table>
+
+    <h1 id="recipesHeader">- ALL RECIPES -</h1>
+    <div id="recipes"></div>
+
+
+    <script src="./script/functions.js"></script>
+</body>
+
+</html>

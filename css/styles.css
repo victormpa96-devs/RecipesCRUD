@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+
+table{
+    background-color: black;
+    width: fit-content;   
+
+    tr{
+        background-color: burlywood;
+
+        th#tableTitle{
+            padding: 5px; 
+            text-align: center;
+        }
+        
+        td{
+            padding: 5px;
+            color: darkgreen;
+            font-weight: bolder;
+        }
+
+        span{
+            color:black;
+            font-weight: normal
+        }
+
+        td.firstColumn{
+            font-weight: bolder;
+            color: burlywood;
+            background-color:darkolivegreen;
+        }
+        
+    }
+}
+
+h1{
+    color: green;
+}
